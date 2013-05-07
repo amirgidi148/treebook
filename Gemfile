@@ -38,3 +38,10 @@ gem 'jquery-rails'
 # gem 'debugger'
 gem 'execjs'
 gem 'therubyracer'
+gem 'thin'
+
+group :development do
+	gem 'better_errors'
+	gem 'binding_of_caller'
+	gem 'meta_request'
+end
